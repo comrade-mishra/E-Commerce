@@ -4,9 +4,9 @@
 		<title>PHPJabbers.com | Free Computer Store Website Template</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}" />
+		<link rel="stylesheet" href="{% static 'css/main.css' %}" />
+		<noscript><link rel="stylesheet" href="{% static 'css/noscript.css' %}" /></noscript>
 	</head>
 	<body class="is-preload">
 
@@ -58,7 +58,7 @@
 							<section class="tiles">
 								<article>
 									<span class="image">
-										<img src="images/blog-1-720x480.jpg" alt="" />
+										<img src="{% static 'images/blog-1-720x480.jpg' %}" alt="" />
 									</span>
 									<header class="major">
 										<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit hic</h3>
@@ -72,7 +72,7 @@
 								</article>
 								<article>
 									<span class="image">
-										<img src="images/blog-2-720x480.jpg" alt="" />
+										<img src="{% static 'images/blog-2-720x480.jpg' %}" alt="" />
 									</span>
 									<header class="major">
 										<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit hic</h3>
@@ -86,7 +86,7 @@
 								</article>
 								<article>
 									<span class="image">
-										<img src="images/blog-3-720x480.jpg" alt="" />
+										<img src="{% static 'images/blog-3-720x480.jpg' %}" alt="" />
 									</span>
 									<header class="major">
 										<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit hic</h3>
@@ -100,7 +100,7 @@
 								</article>
 								<article>
 									<span class="image">
-										<img src="images/blog-4-720x480.jpg" alt="" />
+										<img src="{% static 'images/blog-4-720x480.jpg' %}" alt="" />
 									</span>
 									<header class="major">
 										<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit hic</h3>
@@ -114,7 +114,7 @@
 								</article>
 								<article>
 									<span class="image">
-										<img src="images/blog-5-720x480.jpg" alt="" />
+										<img src="{% static 'images/blog-5-720x480.jpg' %}" alt="" />
 									</span>
 									<header class="major">
 										<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit hic</h3>
@@ -128,7 +128,7 @@
 								</article>
 								<article>
 									<span class="image">
-										<img src="images/blog-6-720x480.jpg" alt="" />
+										<img src="{% static 'images/blog-6-720x480.jpg' %}" alt="" />
 									</span>
 									<header class="major">
 										<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit hic</h3>
@@ -163,14 +163,14 @@
 			</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+			<script src="{% static 'js/jquery.min.js' %}"></script>
+			<script src="{% static 'bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+			<script src="{% static 'js/jquery.scrolly.min.js' %}"></script>
+			<script src="{% static 'js/jquery.scrollex.min.js' %}"></script>
+			<script src="{% static 'js/browser.min.js' %}"></script>
+			<script src="{% static 'js/breakpoints.min.js' %}"></script>
+			<script src="{% static 'js/util.js' %}"></script>
+			<script src="{% static 'js/main.js' %}"></script>
 
 	</body>
 </html>
