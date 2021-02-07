@@ -18,6 +18,9 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('user_example.urls')),
+    path('', include('mainapp.urls')),
     path('accounts/', include('django.contrib.auth.urls'))
 ]
+
+
+# urlpatterns += static(settings.MEDIA_URL,document)
